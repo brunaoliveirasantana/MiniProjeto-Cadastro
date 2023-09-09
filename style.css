@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Raleway:wght@300&display=swap');
+
+/* geral */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    color: #323232;
+    border: none;
+  }
+  
+  input, label {
+    display: block;
+    outline: none;
+    width: 100%;
+  }
+  
+  a {
+    color: peru;
+  }
+
+  
+  body {
+    padding-top: 5vh;
+    background-color: peru;
+  }
+  
+  /* form */
+
+  .form-img {
+    width: 48%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fde3a7d7;
+    padding: 1rem;
+}
+
+.form-img img {
+    width: 31rem;
+}
+
+h2 {
+    font-size: 15px;
+    margin-left: 540px;
+    margin-bottom: 20px;
+}
+
+.text {
+    margin-top: -490px;
+}
+
+.text2 {
+    margin-top: 15px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.login {
+    font-weight: bold;
+    margin-top: 20px;
+    text-decoration: none;
+}
+
+.login a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+  #main-container {
+    width: 1100px;
+    margin-left: auto;
+  margin-right: auto;
+  background-color: #FFF;
+  border-radius: 10px;
+  padding: 25px;
+  max-width: 110cm;
+
+  }
+  
+  #main-container h1 {
+    margin-left: 540px;
+    margin-bottom: 2px;
+    font-size: 1.6rem;
+  }
+  
+  form {
+    display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-left: 540px;
+  }
+  
+  .full-box {
+    flex: 1 1 100%;
+    position: relative;
+  }
+  
+  .half-box {
+    flex: 1 1 45%;
+    position: relative;
+  }
+  
+  .spacing {
+    margin-right: 2.5%;
+  }
+  
+  label {
+    font-weight: bold;
+    font-size: .8rem;
+  }
+  
+  input {
+    border-bottom: 2px solid #323232;
+    padding: 10px;
+    font-size: .9rem;
+    margin-bottom: 40px;
+  }
+  
+  input:focus {
+    border-color: peru;
+  }
+  
+  input[type="submit"] {
+    background-color: peru;
+    color: #FFF;
+    border: none;
+    border-radius: 20px;
+    height: 40px;
+    cursor: pointer;
+    margin-top: 4px;
+  }
+
+  input[type="submit"]:hover {
+    background-color: #fde3a7d7;
+    color: peru;
+  }
+  
+  #agreement {
+    margin-right: 5px;
+  }
+  
+  #agreement, #agreement-label {
+    display: inline-block;
+    width: auto;
+  }
+  
+  .error-validation {
+    color: #ff1a1a;
+    position: absolute;
+    top: 57px;
+    font-size: 12px;
+  }
+  
+  .template {
+    display: none;
+  }
+
+  
